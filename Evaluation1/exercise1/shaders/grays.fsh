@@ -10,7 +10,7 @@ void main() {
 	
 	float delta = 2.4 / widthScreen;
 	vec2 vecx = vec2(-1.2 + gl_FragCoord.x*delta, -1.2 + gl_FragCoord.y*delta);
-	vec2 vecz = vec2(-0.74543, 0.11301);
+	vec2 vecz = vec2(-0.74543, -0.11301);
 	int count = 0;
 	
 	while (length(vecx) <= 2.0 && count < 128) {
